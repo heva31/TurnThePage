@@ -1,0 +1,15 @@
+/* AddToCartButton.css */
+.add-to-cart-button {
+    background-color: #f8b400; /* Change background color to yellow */
+    color: black; /* Text color for contrast */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: add rounded corners */
+    padding: 10px 15px; /* Add some padding */
+    cursor: pointer; /* Change cursor to pointer */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.add-to-cart-button:hover {
+    background-color: #e0a800; /* Change color on hover */
+}

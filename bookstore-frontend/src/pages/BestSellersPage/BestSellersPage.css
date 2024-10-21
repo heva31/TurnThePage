@@ -1,0 +1,45 @@
+/* src/pages/BestSellersPage.css */
+.best-sellers-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .books-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .book-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .book-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-item img {
+    width: 128px;
+    height: 196px;
+    margin-bottom: 12px;
+  }
+  
+  .book-price {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  

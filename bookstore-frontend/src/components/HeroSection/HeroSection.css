@@ -1,0 +1,43 @@
+/* src/components/hero/HeroSection.css */
+
+.hero-container {
+  background-image: url('../../assets/image3.png'); /* Adjust path accordingly */
+  background-size: cover;
+  background-position: center;
+  height: 700px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color for visibility */
+  text-align: center;
+  padding: 20px; /* Optional padding */
+}
+
+.hero-content {
+  z-index: 1;
+}
+.hero-content h1{
+    font-family: 'SUSE', sans-serif;
+    color:rgb(255, 255, 255);font-weight: 700;margin-top: -50px;
+    font-size: '300px';
+}
+.hero-content p{
+  z-index: 1; /* Ensures text is above the background */
+  color:white;font-weight: 700
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: rgba(215, 215, 216, 0.8); /* Semi-transparent background for button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background and scale */
+}
+
+.cta-button:hover {
+  background-color: #ffc72d; /* Change background to f8b400 on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}

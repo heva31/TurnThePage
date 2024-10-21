@@ -1,0 +1,87 @@
+/* Container for the signup form */
+.auth-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center the form vertically */
+    background-color: #f8f9fa; /* Light grey background for a clean look */
+    padding: 20px; /* Padding for responsiveness on smaller screens */
+}
+
+/* The signup form styling */
+.auth-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 400px; /* Set the maximum width for the form */
+    width: 100%; /* Make it responsive */
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 20px; /* Add margin to push the form down */
+}
+
+/* Form title styling */
+.auth-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+/* Input field styling */
+.auth-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Change border color on focus */
+.auth-form input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+.auth-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Primary blue */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.auth-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+    .auth-form {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .auth-form h1 {
+        font-size: 20px;
+    }
+}

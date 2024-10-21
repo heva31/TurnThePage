@@ -1,0 +1,86 @@
+/* .footer {
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  *{
+    font-family: 'SUSE', sans-serif;
+  } */
+
+
+
+  .footer {
+    background-color: #183533;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensure sections don't get too small */
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    color: #fbfbfb; /* Accent color for headings */
+  }
+  
+  .footer-section p, .footer-section ul {
+    margin: 5px 0;
+    color: #ccc; /* Slightly lighter color for readability */
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section a {
+    color: #fffdfa; /* Accent color for links */
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ffffff; /* Subtle separation line */
+    padding-top: 10px;
+  }
+  

@@ -1,0 +1,161 @@
+/* CartPage.css
+.cart-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cart-item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 80px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.cart-item h2 {
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.cart-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #218838;
+}
+
+.total-amount {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+  text-align: center;
+} */
+/* CartPage.css */
+
+/* Container for the cart */
+.cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cart title */
+.cart-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Individual cart item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart item details (book info) */
+.cart-item-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+/* Book image */
+.cart-item-info img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Book title */
+.cart-item-info h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Book author */
+.cart-item-info p {
+  color: #777;
+  font-size: 1rem;
+}
+
+/* Quantity input */
+.cart-item-quantity input {
+  width: 50px;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Remove button */
+.cart-item-remove button {
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item-remove button:hover {
+  background-color: #ff4c4c;
+}
+
+/* Total amount section */
+.cart-total {
+  text-align: right;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.cart-total span {
+  color: #ff6b6b;
+}

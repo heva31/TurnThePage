@@ -1,0 +1,116 @@
+/* src/components/FeaturedBooks.css */
+
+/* Featured Books Section */
+.featured-books-section {
+  padding: 50px 30px;
+  text-align: center;
+  background-color: #c2c8c7; /* Remove background color */
+  border-radius: 10px; /* Retain the rounded corners */
+  box-shadow: none; /* Remove shadow for a cleaner look */
+  font-family: 'Arial', sans-serif; /* Clean, modern font */
+  margin: 30px;
+}
+
+/* Heading for Featured Books */
+.featured-books-section h2 {
+  font-size: 2.8rem; /* Larger for emphasis */
+  margin-bottom: 40px;
+  color: #000000; /* Darker text color for professionalism */
+  font-weight: bold;
+  text-transform: uppercase; /* Uppercase for better prominence */
+  letter-spacing: 1.2px; /* Slightly spaced letters */
+}
+
+/* Books Container */
+.books-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap items */
+  justify-content: center; /* Center the items */
+  gap: 30px; /* Increase gap between book cards */
+  padding-bottom: 30px; /* Padding below books */
+}
+
+/* Book Card Styling */
+.book-card {
+  background-color: #fff; /* White background for cards */
+  border: 1px solid #ddd; /* Light border for subtle separation */
+  border-radius: 10px; /* Slightly more rounded corners */
+  padding: 25px;
+  width: 260px; /* Slightly wider cards */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Softer shadow */
+  text-decoration: none; /* Remove underline from link */
+  color: inherit; /* Inherit text color from parent */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content */
+}
+
+/* Hover Effects for Book Cards */
+.book-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Book Title Styling */
+.book-card h3 {
+  font-size: 1.6rem; /* Slightly larger for emphasis */
+  color: #000000; /* Dark blue-gray for titles */
+  margin: 15px 0; /* Space around title */
+  font-weight: 600; /* Bolder text */
+  text-align: center; /* Center align the book titles */
+}
+
+/* Book Description and Price */
+.book-card p {
+  color: #3e4040; /* Softer gray for author and price */
+  margin: 8px 0; /* More space around paragraphs */
+  text-align: center; /* Center align text */
+}
+
+/* Book Image Styling */
+.book-card img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 6px; /* Slightly more rounded corners for images */
+  margin-bottom: 15px; /* Space below image */
+  transition: transform 0.3s ease; /* Smooth image hover effect */
+}
+
+/* Hover Effect on Image */
+.book-card:hover img {
+  transform: scale(1.03); /* Slight zoom on image hover */
+}
+
+/* Button Styling */
+.book-card button {
+  background-color: #E98A15; /* Updated button color to warm orange */
+  color: white; /* Text color for contrast */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add some padding */
+  font-size: 1rem; /* Button text size */
+  border-radius: 5px; /* Rounded corners for a modern look */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+  margin-top: 15px; /* Space above the button */
+}
+
+/* Button Hover Effect */
+.book-card button:hover {
+  background-color: #d97a10; /* Darker orange on hover */
+  transform: translateY(-2px); /* Lift button slightly */
+}
+
+/* Button Active Effect */
+.book-card button:active {
+  background-color: #c46e0e; /* Even darker orange when clicked */
+  transform: translateY(1px); /* Press button down slightly */
+}
+
+/* No Books Message */
+.no-books-message {
+  font-size: 1.4rem; /* Slightly larger for better visibility */
+  color: #95a5a6; /* Lighter gray for no books message */
+  font-style: italic; /* Italic for a softer tone */
+  margin-top: 20px;
+}

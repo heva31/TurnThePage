@@ -1,0 +1,108 @@
+/* General Styles */
+.categories-page {
+  margin: 50px;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #c2c8c7 !important; 
+
+  font-family: 'Arial', sans-serif; /* Modern font */
+}
+.new h1 {
+  font-size: 3rem; /* Prominent size for the heading */
+  margin-bottom: 40px; /* Space below the heading */
+  color: #000000 !important; /* Dark teal for the heading */
+  text-transform: uppercase; /* Uppercase for emphasis */
+  letter-spacing: 1.5px; /* Spacing for modern look */
+  font-weight: bold; /* Make it bold for prominence */
+}
+
+/* Error Message Styles */
+.error-message {
+  color: red;
+  margin: 20px 0;
+  font-size: 1.2rem; /* Larger size for visibility */
+}
+
+/* Categories Section Styles */
+.categories-section {
+  background-color: #ffffff; /* White background for the section */
+  border-radius: 12px; /* More rounded corners */
+  padding: 40px 20px; /* Inner padding */
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1); /* Soft shadow for depth */
+}
+
+/* Categories List Styles */
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items */
+  gap: 30px; /* Increased gap for spacious layout */
+}
+
+/* Category Item Styles */
+.category-item {
+  background-color: #ffffff; /* White background for category items */
+  border-radius: 10px; /* Rounded corners */
+  padding: 40px; /* Padding for better spacing */
+  width: 220px; /* Fixed width for items */
+  cursor: pointer; /* Indicate clickable item */
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Smooth transitions */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex; /* Flexbox for centering text */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  font-weight: bold; /* Bold text for category names */
+  color: #183533; /* Dark teal for text color */
+}
+
+/* Hover Effects for Category Items */
+.category-item:hover {
+  transform: translateY(-5px); /* Slightly lift the item */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  background-color: #f8b400; /* Change background color to yellow on hover */
+}
+
+/* Link Styles */
+.category-item a {
+  color: #183533; /* Set link color to dark teal */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.category-item a:hover {
+  color: black; /* Change to black on hover */
+  text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+/* Ensure visited links are also dark teal */
+.category-item a:visited {
+  color: #183533; /* Ensure visited links are dark teal */
+}
+
+/* Category Item Title Styles */
+.category-item h2 {
+  font-size: 1.6rem; /* Title size */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center text */
+  transition: color 0.3s; /* Smooth color transition */
+  text-decoration: none;
+  color: rgb(0, 0, 0) !important;
+}
+
+/* Change title color on hover */
+.category-item:hover h2 {
+  color: black; /* Change title text color to black on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .categories-list {
+    gap: 20px; /* Reduced gap for smaller screens */
+  }
+  
+  .category-item {
+    width: 90%; /* Make items full-width on smaller screens */
+    padding: 20px; /* Reduced padding for smaller screens */
+  }
+}
+

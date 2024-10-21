@@ -1,0 +1,153 @@
+/* src/components/SearchResults.css */
+
+/* Search Results Section */
+.search-results-section {
+  padding: 40px 30px; /* More spacious padding */
+  background-color: #c2c8c7; /* Soft contrast background */
+  margin: 50px;
+}
+
+/* Search Results Container */
+.search-results-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Increase space between items */
+  justify-content: center;
+}
+
+/* Search Result Item */
+.search-result-item {
+  border: 1px solid #e0e0e0; /* Softer border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 25px; /* Spacious padding */
+  background-color: #ffffff; /* Clean white background */
+  flex: 1 1 220px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Softer shadow for depth */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  position: relative; /* Needed for wishlist button */
+}
+
+/* Hover Effect on Search Result Item */
+.search-result-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* Deeper shadow */
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* Search Result Image */
+.search-result-image {
+  width: 100%; /* Full width */
+  height: 240px; /* Image height */
+  object-fit: cover; /* Maintain image aspect ratio */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Search Result Details */
+.search-result-details {
+  margin-top: 15px; /* Space between image and text */
+}
+
+.search-result-details h3 {
+  margin: 0;
+  font-size: 1.6rem; /* Larger title font */
+  color: #000000; /* Black for titles */
+  font-weight: 600; /* Bold title */
+  line-height: 1.4; /* Improved readability */
+}
+
+.search-result-details p {
+  margin: 5px 0;
+  color: #000000; /* Black font color for description */
+  font-size: 1.1rem; /* Slightly larger for readability */
+}
+
+.search-result-details p:last-of-type {
+  font-weight: 500; /* Medium weight for price */
+}
+
+/* Button Container */
+.c {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  margin-top: 15px;
+}
+
+/* Add to Cart Button */
+.add-to-cart-button {
+  margin-top: 15px;
+  padding: 12px 18px; /* More padding for comfort */
+  background-color: #E98A15; /* Warm orange button */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem;
+  font-weight: 600; /* Bold text */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex; /* Align button content */
+  align-items: center;
+}
+
+.add-to-cart-button:hover {
+  background-color: #d97a10; /* Darker orange on hover */
+  transform: translateY(-2px); /* Lift button on hover */
+}
+
+.add-to-cart-button:active {
+  background-color: #c46e0e; /* Even darker orange on click */
+  transform: translateY(1px); /* Button press effect */
+}
+
+/* Focus State for Button */
+.add-to-cart-button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 2px rgba(233, 138, 21, 0.5); /* Orange outline on focus */
+}
+
+/* Wishlist Button */
+.wishlist-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 50%; /* Circular button */
+  padding: 8px; /* Padding for better click area */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  color: #e63946; /* Bright red for icon */
+  cursor: pointer;
+  font-size: 1.8rem;
+  transition: color 0.3s ease, transform 0.3s ease; /* Hover effects */
+  z-index: 1; /* Ensure it appears above content */
+}
+
+.wishlist-button:hover {
+  color: #ff4081; /* Brighter red on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.wishlist-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+/* Wishlist Button Icon Styling */
+.wishlist-button i {
+  position: relative;
+  top: 2px; /* Align the heart icon properly */
+}
+
+
+/* SearchResults.css */
+.add-to-cart-button {
+    background-color: yellow; /* Change background color to yellow */
+    color: black; /* Change text color to black for better contrast */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: add rounded corners */
+    padding: 10px 15px; /* Add some padding */
+    cursor: pointer; /* Change cursor to pointer */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.add-to-cart-button:hover {
+    background-color: darkorange; /* Change color on hover */
+}
