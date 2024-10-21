@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turn the Page Bookstore README</title>
-</head>
 <body>
     <h1>Turn the Page Bookstore</h1>
     <p>The Turn the Page Bookstore is a comprehensive web-based platform designed to provide users with a seamless experience for discovering and purchasing books online. Built using React for the frontend and Django for the backend, it integrates APIs, a cart system, and user management features.</p>
@@ -103,4 +96,3 @@
     <h2 id="license">License</h2>
     <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 </body>
-</html>
